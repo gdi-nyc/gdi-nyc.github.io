@@ -34,3 +34,6 @@
 [submodule "intro-to-sass"]
 	path = intro-to-sass
 	url = https://github.com/gdi-nyc/intro-to-sass.git
+[submodule "intro-to-python"]
+	path = intro-to-python
+	url = https://github.com/gdi-nyc/intro-to-python.git
