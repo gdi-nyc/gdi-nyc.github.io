@@ -37,3 +37,9 @@
 [submodule "intro-to-python"]
 	path = intro-to-python
 	url = https://github.com/gdi-nyc/intro-to-python.git
+[submodule "intro-to-ruby"]
+	path = intro-to-ruby
+	url = https://github.com/gdi-nyc/intro-to-ruby.git
+[submodule "intro-to-flexbox"]
+	path = intro-to-flexbox
+	url = https://github.com/gdi-nyc/intro-to-flexbox.git
