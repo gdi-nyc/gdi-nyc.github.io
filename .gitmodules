@@ -43,3 +43,6 @@
 [submodule "intro-to-flexbox"]
 	path = intro-to-flexbox
 	url = https://github.com/gdi-nyc/intro-to-flexbox.git
+[submodule "gdi-nyc.github.io"]
+	path = gdi-nyc.github.io
+	url = https://github.com/gdi-nyc/gdi-nyc.github.io.git
