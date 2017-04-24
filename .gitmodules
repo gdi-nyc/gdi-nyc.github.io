@@ -46,3 +46,6 @@
 [submodule "gdi-nyc.github.io"]
 	path = gdi-nyc.github.io
 	url = https://github.com/gdi-nyc/gdi-nyc.github.io.git
+[submodule "intermediate-python-pandas"]
+	path = intermediate-python-pandas
+	url = https://github.com/gdi-nyc/intermediate-python-pandas.git
