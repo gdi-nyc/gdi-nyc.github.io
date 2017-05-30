@@ -46,3 +46,6 @@
 [submodule "intermediate-python-pandas"]
 	path = intermediate-python-pandas
 	url = https://github.com/gdi-nyc/intermediate-python-pandas.git
+[submodule "Intro-to-Sketch-UI-UX-Design"]
+	path = Intro-to-Sketch-UI-UX-Design
+	url = https://github.com/gdi-nyc/Intro-to-Sketch-UI-UX-Design.git
