@@ -51,4 +51,4 @@
 	url = https://github.com/gdi-nyc/Intro-to-Sketch-UI-UX-Design.git
 [submodule "intro-to-sketch"]
 	path = intro-to-sketch
-	url = https://github.com/gdi-nyc/intro-to-sketch.git
+	url = https://github.com/gdi-nyc/intro-to-sketch
