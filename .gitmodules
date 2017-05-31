@@ -47,3 +47,6 @@
 	path = intermediate-python-pandas
 	url = https://github.com/gdi-nyc/intermediate-python-pandas.git
 
+[submodule "intro-to-sketch"]
+	path = intro-to-sketch
+	url = https://github.com/gdi-nyc/intro-to-sketch.git
