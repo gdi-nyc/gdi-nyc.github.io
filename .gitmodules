@@ -50,3 +50,6 @@
 [submodule "intro-to-sketch"]
 	path = intro-to-sketch
 	url = https://github.com/gdi-nyc/intro-to-sketch.git
+[submodule "intro-to-iOS"]
+	path = intro-to-iOS
+	url = https://github.com/gdi-nyc/intro-to-iOS.git
