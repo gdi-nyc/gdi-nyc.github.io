@@ -53,3 +53,6 @@
 [submodule "intro-to-iOS"]
 	path = intro-to-iOS
 	url = https://github.com/gdi-nyc/intro-to-iOS.git
+[submodule "intro-to-ruby-on-rails"]
+	path = intro-to-ruby-on-rails
+	url = https://github.com/gdi-nyc/intro-to-ruby-on-rails.git
