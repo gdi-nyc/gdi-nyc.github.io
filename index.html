@@ -4,181 +4,54 @@
     <title>GDI NYC Resources</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
     <link rel="stylesheet" href="main.css" />
+    <style>
+      body {
+        margin: 20px;
+      }
+      main {
+        display: flex; 
+        flex-flow: row wrap; 
+        justify-content: space-around; 
+        align-items: flex-start;
+      }
+      section {
+        flex: 1 1 50%;
+        margin: 15px;
+      }
+    </style>
   </head>
   <body>
-    <div class="content container-fluid">
-      <h1>Course Material</h1>
-      <p><strong>General</strong>: Below is the curriculum for Girl Develop It NYC. All content is taught by Software Engineers in the metro area.</p>
-      <p><strong>Teachers</strong>: Please take some time to review the curriculum before you teach. Feel free to fork the repo to make any changes that you find fit. To add your contributions to the main repo, please open up a pull request and tag one of the GDI NYC maintainers.</p>
-      <p><strong>Students</strong>: This curriculum is designed to be taught, while these slides are great references after you attend a course solely relying on these slides alone is not the best utilization of these resources. Check out our upcoming courses on our <a href="https://www.meetup.com/girldevelopit/events/">Meetup calendar</a>.</p>
-      <div class="table-responsive">
-        <table class="table table-striped">
-          <thead>
-            <tr>
-              <th>Topic</th>
-              <th>Prereqs</th>
-              <th>Duration</th>
-              <th>Other links</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><a href="./intro-web-concepts/">Intro to Web Concepts</a></td>
-              <td>None</td>
-              <td>2-2.5 hours</td>
-              <td><a href="https://www.meetup.com/girldevelopit/events/236015412/">Meetup Description</a> | <a href="https://github.com/gdi-nyc/gdi-intro-web-concepts">Github Repo</a></td>
-            </tr>
-            <tr>
-              <td><a href="./intro-to-git-and-github/">Intro to Git and Github</a></td>
-              <td>None</td>
-              <td>4-5 hours</td>
-              <td><a href="https://www.meetup.com/girldevelopit/events/235921233/">Meetup Description</a> | <a href="https://github.com/gdi-nyc/gdi-core-git-github">Github Repo</a></td>
-            </tr>
-            <tr>
-              <td><a href="./intro-to-command-line/">Intro to Command Line</a></td>
-              <td>None</td>
-              <td>2-4 hours</td>
-              <td><a href="https://www.meetup.com/Girl-Develop-It-Minneapolis/events/213995282/">Meetup Description</a> | <a href="https://github.com/gdi-nyc/intro-to-command-line">Github Repo</a></td>
-            </tr>
-            <tr>
-              <td><a href="./developer-tools-overview/">Developer Tools Overview</a></td>
-              <td>None</td>
-              <td>2-3 hours*</td>
-              <td><a href="https://www.meetup.com/girldevelopit/events/231328761/">Meetup Description</a> | <a href="https://github.com/gdi-nyc/gdi-developer-tools">Github Repo</a></td>
-            </tr>
-            <tr>
-              <td>
-                Intro to HTML and CSS<br />
-                <a href="./intro-to-html-css/class1.html">Class 1</a>
-                <a href="./intro-to-html-css/class2.html">Class 2</a><br />
-                <a href="./intro-to-html-css/class3.html">Class 3</a>
-                <a href="./intro-to-html-css/class4.html">Class 4</a>
-              </td>
-              <td>None</td>
-              <td>8 hours</td>
-              <td><a href="https://www.meetup.com/girldevelopit/events/230060612/">Meetup Description</a> | <a href="https://github.com/gdi-nyc/gdi-core-html-css">Github Repo</a></td>
-            </tr>
-            <tr>
-              <td>
-                Intro to JavaScript<br />
-                <a href="./intro-to-javascript/class1.html">Class 1</a>
-                <a href="./intro-to-javascript/class2.html">Class 2</a><br />
-                <a href="./intro-to-javascript/class3.html">Class 3</a>
-                <a href="./intro-to-javascript/class4.html">Class 4</a>
-              </td>
-              <td>Working knowledge of HTML and CSS</td>
-              <td>8 hours</td>
-              <td><a href="https://www.meetup.com/girldevelopit/events/233913682/">Meetup Description</a> | <a href="https://github.com/gdi-nyc/gdi-core-javascript">Github Repo</a></td>
-            </tr>
-            <tr>
-              <td>
-                Intro to PHP and MySql<br />
-                <a href="./intro-php-mysql/class1.html">Class 1</a>
-                <a href="./intro-php-mysql/class2.html">Class 2</a><br />
-                <a href="./intro-php-mysql/class3.html">Class 3</a>
-                <a href="./intro-php-mysql/class4.html">Class 4</a>
-              </td>
-              <td>Working knowledge of HTML and CSS</td>
-              <td>8 hours</td>
-              <td><a href="https://www.meetup.com/girldevelopit/events/180025402/">Meetup Description</a> | <a href="https://github.com/gdi-nyc/gdi-intro-php-mysql">Github Repo</a></td>
-            </tr>
-            <tr>
-              <td><a href="https://docs.google.com/presentation/d/1GQjaBrKutR8moYyewm-UA98enuoDYzNBBK2mdG3uQtg/edit#slide=id.p">Intro to Algorithms</a></td>
-              <td>Working knowledge of any programming language</td>
-              <td>3-4 hours</td>
-              <td><a href="https://www.meetup.com/girldevelopit/events/235312779/">Meetup Description</a></td>
-            </tr>
-            <tr>
-              <td><a href="./intro-to-node/">Intro to NodeJS</a></td>
-              <td>Working knowledge of JavaScript</td>
-              <td>TBD</td>
-              <td><a href="">Meetup Description</a> | <a href="https://github.com/gdi-nyc/Intro-to-Node.js">Github Repo</a></td>
-            </tr>
-            <tr>
-              <td>
-                Intro to MeteorJS <br />
-                Class 1: <a href="https://github.com/gdi-nyc/intro-to-meteor/blob/master/class1/chat-tutorial-part-1.md">part 1</a> <a href="https://github.com/gdi-nyc/intro-to-meteor/blob/master/class1/chat-tutorial-part-2.md">part 2</a> <a href="https://github.com/gdi-nyc/intro-to-meteor/blob/master/class1/chat-tutorial-part-3.md">part 3</a><br />
-                Class 2: <a href="https://github.com/gdi-nyc/intro-to-meteor/blob/master/class2/chat-tutorial-part-4.md">part 4</a> <a href="https://github.com/gdi-nyc/intro-to-meteor/blob/master/class2/chat-tutorial-part-5.md">part 5</a>
-              </td>
-              <td>HTML/CSS, some JavaScript, and a willingness to use the command line.</td>
-              <td>5 hours</td>
-              <td><a href="https://www.meetup.com/girldevelopit/events/227545610/">Meetup Description</a> | <a href="https://github.com/gdi-nyc/intro-to-meteor">Github Repo</a></td>
-            </tr>
-            <tr>
-              <td><a href="./intro-to-reactjs/slides/ReactJS-slides-TEMP.pdf">Intro to ReactJS</a></td>
-              <td>HTML/CSS, some JavaScript, and a willingness to use the command line.</td>
-              <td>4 hours</td>
-              <td><a href="https://www.meetup.com/girldevelopit/events/235421830/">Meetup Description</a> | <a href="https://github.com/gdi-nyc/intro-to-react">Github Repo</a></td>
-            </tr>
-            <tr>
-              <td><a href="./intermediate-html-css/">Intermediate HTML and CSS</a></td>
-              <td>Intro to HTML/CSS or basic HTML/CSS experience</td>
-              <td>8 hours</td>
-              <td><a href="https://www.meetup.com/girldevelopit/events/234180248/">Meetup Description</a> | <a href="https://github.com/gdi-nyc/gdi-featured-intermediate-html-css">Github Repo</a></td>
-            </tr>
-            <tr>
-              <td><a href="./intro-to-sass/">Intro to Sass</a></td>
-              <td>Intro to HTML/CSS or basic HTML/CSS experience</td>
-              <td>4 hours</td>
-              <td><a href="https://www.meetup.com/girldevelopit/events/237880206/">Meetup Description</a> | <a href="https://github.com/gdi-nyc/intro-to-sass">Github Repo</a></td>
-            </tr>
-            <tr>
-              <td><a href="./intro-to-python/">Intro to Python</a></td>
-              <td>None</td>
-              <td>8 hours</td>
-              <td><a href="https://www.meetup.com/girldevelopit/events/237683582/">Meetup Description</a> | <a href="https://github.com/gdi-nyc/intro-to-python">Github Repo</a></td>
-            </tr>
-              <td><a href="./intermediate-python-pandas/">Intermediate Python: Pandas</a></td>
-              <td>GDI's Intro to Python class or basic working knowledge of Python is recommended.</td>
-              <td>2 hours</td>
-              <td><a href="https://www.meetup.com/girldevelopit/events/238717834/">Meetup Description</a> | <a href="https://github.com/gdi-nyc/intermediate-python-pandas">Github Repo</a></td>
-            </tr>
-            <tr>
-              <td><a href="./intro-to-flexbox/flexbox-class-slides/#/">Intro to Flexbox</a></td>
-              <td>Intro to HTML/CSS or basic HTML/CSS experience</td>
-              <td>2.5 hours</td>
-              <td><a href="">Meetup Description</a> | <a href="https://github.com/gdi-nyc/intro-to-flexbox">Github Repo</a></td>
-            </tr>
-            <tr>
-              <td><a href="./intro-to-ruby/">Intro to Ruby</a></td>
-              <td>None</td>
-              <td>4 hours</td>
-              <td><a href="https://www.meetup.com/girldevelopit/events/238701829/">Meetup Description</a> | <a href="https://github.com/gdi-nyc/intro-to-ruby">Github Repo</a></td>
-            </tr>
-            <tr>
-<<<<<<< HEAD
-              <td><a href="./intro-to-ruby-on-rails/rails.html">Intro to Ruby on Rails</a></td>
-=======
-              <td><a href="./intro-to-ruby-on-rails/rails.html#/">Intro to Ruby on Rails</a></td>
->>>>>>> 363fd23fdc44735868a2e620eaa9d389aa3cb9f6
-              <td>Intro to Ruby and basic HTML/CSS experience</td>
-              <td>4 hours</td>
-              <td><a href="https://www.meetup.com/girldevelopit/events/240167371/">Meetup Description</a> | <a href="https://github.com/gdi-nyc/intro-to-ruby-on-rails">Github Repo</a></td>
-            </tr>
-            <tr>
-              <td><a href="./intro-to-sketch/slides/#/">Intro to Sketch App</a></td>
-              <td>None</td>
-              <td>2 hours</td>
-              <td><a href="https://www.meetup.com/girldevelopit/events/239346355/">Meetup Description</a> | <a href="https://github.com/gdi-nyc/intro-to-sketch">Github Repo</a></td>
-            </tr>
-            <tr>
-              <td><a href="./intro-to-iOS">Intro to iOS</a></td>
-              <td>None</td>
-              <td>8 hours</td>
-              <td><a href="https://www.meetup.com/girldevelopit/events/240167292/">Meetup Description</a> | <a href="https://github.com/gdi-nyc/intro-to-iOS">Github Repo</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <p><strong>Interested in teaching any of it?</strong></p>
-      <ul>
-        <li>Consult our <a href="https://docs.google.com/document/d/1F3-Z63hQKq1COWwkA5hUrBH7ihQSD4fQ_vRXwid2vuw/">teaching guide</a>.</li>
-        <li>Try doing the exercises yourself and make sure you understand what issues students might run into while doing them.</li>
-        <li>Reach out to us at <a href="mailto:nyc@girldevelopit.com?subject=Interested%20in%20Teaching%20for%20GDI%20NYC">nyc@girldevelopit.com </a> to schedule your course.</li>
-        <li>After you teach it, report issues and open Pull Requests on the appropriate <a href="https://github.com/gdi-nyc">Github project</a>.</li>
-      </ul>
-      <p>Want to teach a course and you don't see the curriculum here? Take a look at our <a href="https://github.com/gdi-nyc/guide-to-new-curriculum">guide to new curriculum</a>. If you have any additional questions, contact us at <a href="mailto:nyc@girldevelopit.com?subject=New%20GDI%20NYC%20Curriculum">nyc@girldevelopit.com</a>.</p>
-    </div>
-    <footer>All Rights Reserved © 2017 </footer>
+    <h1>Girl Develop It NYC</h1>
+    <p>Girl Develop It is an non-profit organization that exists to provide affordable and accessible programs to women who want to learn software and web development through mentorship and hands-on instruction.</p>
+    
+    <main >
+      <section>
+        <h2>Get Involved</h2>
+        <ul>
+          <li><a href="https://www.girldevelopit.com/donate">Donate to our Chapter</a></li>
+          <li><a href="https://docs.google.com/forms/d/1_nWoEL3jmmDLliwCgdTs6DseZ7CHiTDKOtJMY1H3xqk/viewform?usp=send_form">Host a Class</a></li>
+          <li><a href="https://docs.google.com/document/d/1yeKJIwYB17TUgZIBT8M_VuyBaqWn11CIxbTy3a2j2wQ/edit">TA Info</a> Interested in helping TA a class?</li>
+          <li><a href="https://docs.google.com/document/d/1A7LN3PwCEZSJ5-TxTzvpXEOIQHO_71dM2rXAhPCqFjo/edit">Teacher Info</a> Interested in instructing a class?</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Connect with Us</h2>
+        <ul>
+          <li><a href="https://www.meetup.com/girldevelopit/">Meetup</a></li>
+          <li><a href="https://gdi-nyc-slack.herokuapp.com/">Join our Slack team</a></li>
+          <li><a href="https://twitter.com/gdinyc">Twitter</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="/materials.html">Class Materials</a></li>
+          <li><a href="https://docs.google.com/forms/d/1kUZwnvhscb-kmQ8BrfTlt_dmKUtRyNE0aGr-OV-866M/viewform?usp=send_form">Scholarship Form</a></li>
+          <li><a href="https://docs.google.com/a/girldevelopit.com/forms/d/1QeQ6INtkQIpjllX2XEdO5ImyeuD8Sa7bEXrPAyL2AX0/edit?usp=sharing">Submit a Job or Event to our Newsletter</a></li>
+          <li><a href="https://www.girldevelopit.com/code-of-conduct">Code of Conduct</a></li>
+        </ul>
+      </section>
+    </main>
+
   </body>
 </html>
