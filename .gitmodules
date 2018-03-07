@@ -56,3 +56,6 @@
 [submodule "intro-to-ruby-on-rails"]
 	path = intro-to-ruby-on-rails
 	url = https://github.com/gdi-nyc/intro-to-ruby-on-rails.git
+[submodule "intro-to-ux"]
+	path = intro-to-ux
+	url = https://github.com/gdi-nyc/intro-to-ux.git
